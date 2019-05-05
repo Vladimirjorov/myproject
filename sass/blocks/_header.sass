@@ -17,6 +17,8 @@
         display: flex
         justify-content: flex-end
         list-style-type: none
+        @media (max-width: 748.98px)
+            display: none
         &__list
             margin-left: 25px
         &__link
@@ -26,6 +28,8 @@
             font-size: 13px
             font-weight: 900
             letter-spacing: 2.5px
+            @media (max-width: 803.98px)
+                font-size: 11px
             &:hover
                 text-decoration: none
                 font-family: 'Roboto', sans-serif
@@ -57,6 +61,10 @@
                 font-weight: 300
                 margin-bottom: 50px
                 margin-top: 20px
+                @media (max-width: 762.98px)
+                    font-size: 12px
+                @media (max-width: 660.98px)
+                    font-size: 11px
             a
                 text-align: center
                 line-height: 4px
@@ -105,7 +113,3 @@ li.slick-active
     button
         background: #00e0d0
         border: 1px solid #00e0d0
-		
-	
-
-

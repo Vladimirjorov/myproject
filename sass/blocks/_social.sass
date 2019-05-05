@@ -2,6 +2,8 @@
     display: flex
     justify-content: space-between
     padding-top: 70px
+    @media (max-width: 910.98px)
+        display: block
     &-form
         &__title
             font-size: 22px
@@ -10,6 +12,8 @@
             font-family: 'Playfair Display', serif
             font-weight: 700
             padding-bottom: 35px
+            @media (max-width: 910.98px)
+                text-align: center
         input
             display: block
             margin-bottom: 23px
@@ -21,6 +25,8 @@
             font-family: 'Roboto', sans-serif
             font-weight: 400
             color: #413d4b
+            @media (max-width: 910.98px)
+                margin: 23px auto
         textarea
             padding-top: 20px
             padding-left: 20px
@@ -29,34 +35,48 @@
             font-family: 'Roboto', sans-serif
             font-weight: 400
             color: #413d4b
-            height: 180px
+            height: 180px 
             width: 440px
             margin-bottom: 20px
+            resize: none
+            @media (max-width: 910.98px)
+                display: block
+                margin: 20px auto
+                resize: none
         &__link
+            display: block
             text-align: center
-            line-height: 4px
+            line-height: 50px
             text-decoration: none
             border: 1px solid #00e0d0
             border-radius: 1px
-            padding: 14px 42px 14px 42px
+            width: 127px
+            height: 50px
+            text-align: center
             font-size: 16px
             font-family: 'Hammersmith One', sans-serif
             font-weight: bold
             color: #00e0d0
+            @media (max-width: 910.98px)
+                margin: 0 auto
             &:hover
+                display: block
                 text-align: center
-                line-height: 4px
+                line-height: 50px
                 text-decoration: none
                 border: 1px solid #00e0d0
                 background-color: #00e0d0
                 border-radius: 1px
-                padding: 14px 42px 14px 42px
+                width: 127px
+                height: 50px
                 font-size: 16px
                 font-family: 'Hammersmith One', sans-serif
                 font-weight: bold
                 color: #fff
     &-logs
         padding-left: 90px
+        @media (max-width: 910.98px)
+            padding: 60px 0 0 0
         &__title
             font-size: 22px
             letter-spacing: 0.5px
@@ -64,11 +84,18 @@
             font-family: 'Playfair Display', serif
             font-weight: 700
             padding-bottom: 35px
+            @media (max-width: 910.98px)
+                text-align: center
         &-flex
             display: flex
+            @media (max-width: 910.98px)
+                justify-content: center
             div
                 padding-top: 15px
             img
                 padding-bottom: 50px
+                @media (max-width: 910.98px)
+                    display: flex
+                    margin-left: 15px
 .slick-slide
     outline: none

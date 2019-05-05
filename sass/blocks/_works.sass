@@ -19,11 +19,27 @@
             &-item
                 padding-left: 5px
     &-sqares
-        div
-            display: flex
+        &__adap
+            text-align: center
         img
-            width: 317px
-            height: 250px
+            width: 250px
+            height: 200px
+            @media (max-width: 1520.98px)
+                width: 230px
+                height: 180px
+            @media (max-width: 1400.98px)
+                width: 210px
+                height: 160px
+            @media (max-width: 1082.98px)
+                display: block
+                margin: 0 auto
+                padding-top: 4px
+                width: 400px
+                height: 350px
+            @media (max-width: 550.98px)
+                width: 270px
+                height: 250px
+            
     &-load
         text-align: center
         padding-top: 70px

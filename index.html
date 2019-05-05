@@ -84,11 +84,11 @@
             <div class="block-expertise-text">
                 <h1 class="block-expertise-text__title">EXPERTISE</h1>
                 <p class="block-expertise-text__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
-                <hr size="2" width="50" color="#c6c4c9">
+                
             </div>
             <div class="block-expertise-catigories">
                 <div class="block-expertise-catigories-one">
-                    <img src="img/komp.png" alt="">
+                    <img class="block-expertise-catigories-one__item4" src="img/komp.png" alt="">
                     <h4>WEB DESIGN & DEVELOPMENT</h4>
                     <p>This is Photoshop's version  of Lorem<br> Ipsum. Proin gravida nibh vel velit<br> auctor aliquet Aenean.</p>
 
@@ -98,7 +98,7 @@
                 </div>
                 <hr>
                 <div class="block-expertise-catigories-two">
-                    <img src="img/kist.png" alt="">
+                    <img class="block-expertise-catigories-one__item5" src="img/kist.png" alt="">
                     <h4>BRANDING IDENTITY</h4>
                     <p>This is Photoshop's version  of Lorem<br> Ipsum. Proin gravida nibh vel velit<br> auctor aliquet Aenean.</p>
 
@@ -108,7 +108,7 @@
                 </div>
                 <hr>
                 <div class="block-expertise-catigories-three"> 
-                    <img src="img/phone.png" alt="">
+                    <img class="block-expertise-catigories-one__item6" src="img/phone.png" alt="">
                     <h4>MOBILE APP</h4>
                     <p>This is Photoshop's version  of Lorem<br> Ipsum. Proin gravida nibh vel velit<br> auctor aliquet Aenean.</p>
 
@@ -127,6 +127,7 @@
                     <p class="block-teams-text__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                     <hr size="2" width="50" color="#a5a4a5">
                 </div>
+                
                 <div class="block-teams-item">
                     <div class="block-teams-item-text2">
                         <img src="img/square.png" alt="">
@@ -172,21 +173,19 @@
             </div>
         </div>
         <div class="block-works-sqares">
-            <div>
+            <div class="block-works-sqares__adap">
                 <img src="img/grey1.png" alt="">
                 <img src="img/grey2.png" alt="">
                 <img src="img/grey3.png" alt="">
                 <img src="img/grey4.png" alt="">
                 <img src="img/grey5.png" alt="">
-                <img src="img/grey6.png" alt="">
             </div>
-            <div>
+            <div class="block-works-sqares__adap">
                 <img src="img/grey7.png" alt="">
                 <img src="img/grey8.png" alt="">
                 <img src="img/grey9.png" alt="">
                 <img src="img/grey10.png" alt="">
                 <img src="img/grey11.png" alt="">
-                <img src="img/grey12.png" alt="">
             </div>
         </div>
         <div class="block-works-load">
@@ -318,12 +317,10 @@
     <script type="text/javascript">
         $(document).ready(function(){ 
         $('.block-carousel').slick({ 
-            dots:false, 
-            arrows:true, 
-            prevArrow: '<i class="fa block-carousel-arrows arrows-left fa-chevron-left"></i>', 
-            nextArrow: '<i class="fa block-carousel-arrows arrows-right fa-chevron-right"></i>' 
-            }); 
-        });
+            dots: true,
+  			arrows:false,
+  		});
+		});
     </script>
 </body>
 </html>
