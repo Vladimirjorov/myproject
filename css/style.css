@@ -904,11 +904,13 @@ li.slick-active button {
   font-family: 'Hammersmith One', sans-serif;
   font-weight: bold;
   color: #00e0d0;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 910.98px) {
   .block-social-form__link {
-    margin: 0 auto;
+    display: block;
+    margin: 20px auto;
   }
 }
 
