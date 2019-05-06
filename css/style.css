@@ -130,6 +130,12 @@ ul, menu, dir {
   margin-bottom: 20px;
 }
 
+@media (max-width: 526.98px) {
+  .header-carousel div h1 {
+    font-size: 26px;
+  }
+}
+
 .header-carousel div p {
   text-align: center;
   font-size: 14px;
@@ -151,6 +157,12 @@ ul, menu, dir {
 @media (max-width: 660.98px) {
   .header-carousel div p {
     font-size: 11px;
+  }
+}
+
+@media (max-width: 612.98px) {
+  .header-carousel div p {
+    font-size: 9px;
   }
 }
 
@@ -228,12 +240,38 @@ li.slick-active button {
   padding-top: 70px;
 }
 
+@media (max-width: 815.98px) {
+  .block-story {
+    display: block;
+  }
+}
+
+@media (max-width: 815.98px) {
+  .block-story__arrow img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 815.98px) {
+  .block-story-text {
+    text-align: center;
+  }
+}
+
 .block-story-text__title {
   font-size: 22px;
   letter-spacing: 0.5px;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   color: #413d4b;
+}
+
+@media (max-width: 559.98px) {
+  .block-story-text__title {
+    font-size: 18px;
+  }
 }
 
 .block-story-text__subtitle {
@@ -244,6 +282,12 @@ li.slick-active button {
   font-weight: 300;
   color: #716e78;
   padding-bottom: 20px;
+}
+
+@media (max-width: 559.98px) {
+  .block-story-text__subtitle {
+    font-size: 11px;
+  }
 }
 
 .block-story-text__btn {
@@ -457,6 +501,11 @@ li.slick-active button {
   text-align: center;
 }
 
+.block-teams-item-text2 img {
+  width: 202px;
+  height: 250px;
+}
+
 .block-teams-item-text2 div {
   border: 1px solid #79768e;
   border-top: none;
@@ -525,7 +574,7 @@ li.slick-active button {
   .page-main2 {
     background-image: url(../img/bg-3.jpg);
     background-repeat: no-repeat;
-    height: 1772px;
+    height: 1872px;
   }
   .block-teams-text {
     text-align: center;
@@ -868,6 +917,12 @@ li.slick-active button {
   }
 }
 
+@media (max-width: 559.98px) {
+  .block-social-form input {
+    width: 290px;
+  }
+}
+
 .block-social-form textarea {
   padding-top: 20px;
   padding-left: 20px;
@@ -886,7 +941,12 @@ li.slick-active button {
   .block-social-form textarea {
     display: block;
     margin: 20px auto;
-    resize: none;
+  }
+}
+
+@media (max-width: 559.98px) {
+  .block-social-form textarea {
+    width: 290px;
   }
 }
 

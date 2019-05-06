@@ -2,13 +2,25 @@
     display: flex
     justify-content: space-around
     padding-top: 70px
+    @media (max-width:815.98px)
+        display: block
+    &__arrow
+        img
+            @media (max-width:815.98px)
+                display: block
+                margin: 0 auto
+                padding-bottom: 20px
     &-text
+        @media (max-width:815.98px)
+            text-align: center
         &__title
             font-size: 22px
             letter-spacing: 0.5px
             font-family: 'Playfair Display', serif
             font-weight: 700
             color: #413d4b
+            @media (max-width:559.98px)
+                font-size: 18px
         &__subtitle
             font-size: 14px
             letter-spacing: 0.3px
@@ -17,6 +29,8 @@
             font-weight: 300
             color: #716e78
             padding-bottom: 20px
+            @media (max-width:559.98px)
+                font-size: 11px
         &__btn
             text-align: center
             line-height: 4px
